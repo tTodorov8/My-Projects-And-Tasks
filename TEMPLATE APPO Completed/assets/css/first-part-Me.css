@@ -1,0 +1,226 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+    
+header {
+    height: 700px;
+    background-color: #223047; 
+}
+
+header .navbar-menu{
+height: 70px;
+width: 1170px;
+margin: 0px auto;
+display: block;
+border-bottom: 1px solid #4e596c;
+text-align: center;
+}
+
+header .navbar-menu .appo-logo  {
+    max-width: max-content;
+    position: relative;
+    float: left ;
+    margin-top: 15px;
+}
+
+header .navbar-menu .nav_wrapper {
+    height: 70px;
+    max-width: max-content;
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: 7px;
+    
+}
+
+header .navbar-menu a {
+  text-decoration: none;
+}
+
+
+header .navbar-menu .nav_wrapper > ul {
+    list-style-type: none;
+    color: #ffffff;
+    
+}
+
+header .navbar-menu .nav_wrapper > ul > li  {
+    display: inline-block; 
+    vertical-align: middle;
+    
+}
+
+header .navbar-menu .nav_wrapper > ul > li a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+header .navbar-menu .nav_wrapper > ul > li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar-menu .get-the-app-wrapper {
+height: 40px;
+width: 140px;
+box-sizing: border-box;
+border: 1px solid #f2f3f4;
+border-radius: 5px;
+display: inline-block;
+position: relative;
+vertical-align: middle;
+left: 250px;
+
+}
+
+header .navbar-menu .get-the-app-wrapper p {
+    text-decoration: none;
+    text-transform:capitalize;
+    color: #00fff0;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+header .navbar-menu .get-the-app-wrapper:hover {
+  background-color: #00fff0;
+  border:none;
+  transition: 0.5s;
+}
+
+header .navbar-menu .get-the-app-wrapper .get-the-app:hover > p {
+  color: #223047;
+}
+
+header .navbar-menu .nav_wrapper div.arrow {
+    border: solid #9ca2ad;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+    left: 10px;
+  }
+
+header .navbar-menu .nav_wrapper div.arrow.down {  
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+  header > .content-header {
+    height: 350px;
+    width: 1170px;
+    margin: auto;
+    margin-top: 190px;
+    display: block;
+    position: relative;
+    left: 100px;
+    
+    
+  }
+
+  header > .content-header .left-content {
+    width: 410px;
+    display: block;
+  }
+  header .content-header .left-content .choose-better-way {
+    display: block;
+  }
+
+  header .content-header .left-content .choose-better-way h1 {
+    font-size: 32px;
+  }
+
+  header > .content-header .left-content .choose-better-way p {
+    font-size: 39px;
+    line-height: 49px;
+    color: #ffffff;
+  }
+
+  header > .content-header .left-content .small-under-text p {
+    font-size: 14px;
+    line-height: 28.59px;
+    color: #97a4be;
+  }
+
+  header > .content-header .left-content .download-free {
+    font-size: 14px;
+    height: 40px;
+    width: 165px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    display:inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top: 15px;
+  }
+/* Download link butt */
+  header > .content-header .left-content a {
+    text-decoration: none;
+
+}
+
+  header > .content-header .left-content .download-free:hover {
+    background-color: #00fff0;
+    border: none;
+    transition: 0.5s;
+  }
+
+  header > .content-header .left-content .download-free:hover > p {
+    color: #223047;
+    
+  }
+
+  header > .content-header .left-content .download-free p {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #f2f3f4;
+    display: block;
+    position: relative;
+    bottom: 5px;
+  }
+/* Rech out link butt */
+  header > .content-header .left-content .reach-out-us {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    width: 140px;
+    height: 40px;
+  }
+
+  header > .content-header .left-content .reach-out-us p {
+    
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #f2f3f4;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+  }
+
+  header > .content-header .left-content .reach-out-us:hover {
+    background-color: #00fff0;
+    border: none;
+    transition: 0.5s;
+  }
+
+  header > .content-header .left-content .reach-out-us:hover > p {
+    color: #223047;
+  }

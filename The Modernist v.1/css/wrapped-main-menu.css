@@ -1,0 +1,78 @@
+html {
+    /* font-size: 16px; */
+margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(41,1,1,255);
+}
+
+.black-row {
+    border-bottom: 3px solid #76c38f;
+    background-color: black;
+    height: 2.5em;
+    width: 100%;
+}
+
+header .wrapped_main_menu {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: rgba(41,1,1,255);
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;
+}
+
+ .the_modernist {
+     align-self: center;
+}
+
+ .wrapped_main_menu .nav_menu {   
+    display: inline-flex;
+    box-sizing: border-box;  
+}
+
+.nav_menu  a {
+    color:rgb(224, 224, 224);
+    text-decoration: none;
+}
+
+.wrapped_main_menu .nav_menu > ul {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: white;
+    list-style-type: none;
+}
+
+.wrapped_main_menu .nav_menu li {
+    margin: 0 10px;
+    display: inline-flex;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    padding: 10px 15px;
+    justify-content: space-around;
+}
+
+.wrapped_main_menu .nav_menu li:hover {
+    background-color: #76c38f;
+    background-repeat: no-repeat;
+    color: gainsboro;
+    transition: 0.5s;
+}
+.the_modernist p {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+
+.the_modernist span {
+    color: grey;
+    font-size: 10px;
+    position: relative;
+    top: -15px;
+}

@@ -1,0 +1,61 @@
+.wrapped_fourth_part {
+    background-color: rgb(101 0 2);
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.wrapped_fourth_part .img_text_box {
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin: 7px;
+    width: 288px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.wrapped_fourth_part .img_text_box img {
+    width: 100%;
+    height: 84%;
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.wrapped_fourth_part .img_text_box h3 {
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding-top: 15px;
+    position: relative;
+    bottom: 25px;
+    height: 25%;
+    font-size: 14px;
+    
+}
+
+.wrapped_fourth_part a {
+    display: inline-block;
+}
+
+.wrapped_fourth_part .img_text_box:hover img {
+    width: 290px;
+    height: 190px;
+}
+
+.wrapped_fourth_part .wrapped_first_row {
+    text-align: center;
+}
+
+.wrapped_fourth_part .wrapped_sec_row {  
+}
+
+.wrapped_fourth_part .img_text_box:hover {
+    border: 4px solid #76c38f;
+    /* background-image: url("../images/bugatti.jpg"); */   
+}
+
+
+/* .latest_work_line p::first-line {
+    color: blueviolet;
+} */

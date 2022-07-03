@@ -1,0 +1,88 @@
+
+#insert {
+	text-align: center;
+}
+
+.cart {
+	display: inline-block;
+	margin: 0 10px;
+	height: 380px;
+	width: 250px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 3px -2px rgba(0, 0, 0, 0.5),
+				0px 2px 15px 8px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	border-bottom: 2px solid #2EBAEE;
+	border-radius: 3px;
+	position: relative;
+	background-color: #2EBAEE;
+	overflow: hidden;
+}
+
+.cart > .personal-information {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 95px 20px 20px;
+	min-height: 250px;
+	background-color: #fff;
+	box-shadow: 0px -3px 3px -1px rgba(0, 0, 0, 0.3);
+}
+
+.cart > .personal-information .avatar {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	border-radius: 150px;
+	position: absolute;
+	top: -75px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border: 2px solid #2EBAEE;
+	overflow: hidden;
+}
+
+.cart > .personal-information .avatar img {
+	display: block;
+	width:  100%;
+	height: 100%;
+}
+
+.cart > .personal-information h2 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #808080;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.cart > .personal-information h3 {
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+	font-size: 18px;
+}
+
+.cart > .personal-information h3:after {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 1px;
+	margin: 10px 0;
+	background-color: #2EBAEE;
+}
+
+.cart > .personal-information h4 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #333;
+	font-size: 14px;
+}
+
+.cart > .personal-information p {
+	font-family: 'Noto Sans', sans-serif;
+	color: #808080;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}

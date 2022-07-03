@@ -1,0 +1,123 @@
+.wrapped_second_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgba(41,1,1,255);
+    /* align-self: center; */
+}
+
+.wrapped_second_menu a {
+    text-decoration: none;
+}
+
+.cursus_part{
+    width: 314px;
+    height: 430px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.cursus_box {
+    margin-right: 20px;
+}
+
+.white_text {
+    color: rgb(224, 224, 224);
+    left: 120px;
+    height: 160px;
+    padding-top: 20px; 
+    font-size: 46px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+.grey_text {
+    margin-top: 10px;
+    width: 319px;
+    height: 74px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #979797; 
+}
+
+.read_link {
+    border-radius: 11px;
+    width: 142px;
+    height: 35px;
+    text-decoration: none;
+    background-color: #76c38f;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 35px;    /* Using for vertical center the text in the div  */
+}
+
+.read_link:after {
+    display: none;
+}
+
+.read_link > a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.circle_part {
+    padding-left: 50px;
+}
+
+.Circle {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    background-color: gray;
+}
+
+.Circletwo {
+    padding: 4%;
+}
+
+.Circletwo > img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(65, 59, 59);
+}
+
+.circlepixels {
+    text-align: center;
+    padding: 160px 10px 10px 10px;
+    color: white;
+    height: 380px;
+}
+
+.arrow {
+    /* border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-flex;
+    border-color: rgb(100, 184, 100);
+    margin-top: 195px;
+    padding-top: 200px; */
+    border: solid rgb(100, 184, 100);
+    border-width: 0 3px 3px 0;
+    display: inline-flex;
+    margin-top: 200px; 
+    position: relative;
+}
+
+.left {
+    transform: rotate(135deg);
+    padding:5px;
+    right: 60px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    padding: 5px; 
+    left: 60px; 
+    
+}

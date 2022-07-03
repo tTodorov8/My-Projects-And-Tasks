@@ -1,0 +1,153 @@
+.wrapped_third_menu {
+    border-top: 3px solid black;
+    height: 400px;
+    background-color: rgba(101,0,2,255);
+    text-align: center; 
+}
+
+.wrapped_third_menu .service_box > a {
+    text-decoration: none;
+}
+
+.wrapped_third_menu .service_box .service_img {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.wrapped_third_menu .service_box .service_text {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.service_box {
+    width: 221px;
+    height: 270px;
+    text-align: center;
+    display: inline-flex;
+    border: 1px solid black;
+    background-color: white;  
+    margin-top:50px; 
+}
+
+.service_box a:hover  {
+    background-color: #76c38f;
+    border: #76c38f;
+}
+
+.service_box:hover p {
+    color:white
+}
+
+.service_box:hover h2 {
+    color: white;
+}
+
+/* .service_box p:hover {
+    color: white;
+}
+
+.service_box h2:hover {
+    color: white;
+} */
+
+.service_text > h2 {
+    text-transform: uppercase;
+}
+
+.service_text > p {
+    font-size: 15px;
+    margin-top: -20px;
+    color: black;
+}
+
+.service_text h2 {
+    margin-top: -15px;
+    color: black;
+}
+
+.latest_work_line {
+    display: inline-flex;
+    width: 100%; 
+    text-align: center;
+    justify-content: center; 
+    margin-top: 12px; 
+}
+
+ .latest_work_line > p {
+    
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #2f3030;
+    padding:5px 5px; 
+    text-align: center; 
+}
+
+.latest_work_line::before {
+    content: '';
+    border: 2px solid #2f3030;
+    width: 390px;
+    max-width: 390px;
+    height: 0.1px;
+    margin-top: 29px;
+    background-color: #2f3030;
+}
+
+.latest_work_line::after {
+    content: '';
+    border: 2px solid #2f3030;
+    width: 390px;
+    max-width: 390px;
+    height: 0.1px;
+    margin-top: 29px;
+    background-color: #2f3030;
+}
+
+ /* .latest_work_line > p::before {
+    background-color: #2f3030;
+    border: 1px solid #2f3030;
+    content: '';
+     left: 310px; 
+    margin-top: 10px;
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    align-self:auto; 
+}
+
+.latest_work_line > p::after {
+    background-color: #2f3030;
+    border: 1px solid #2f3030;
+    content: "";
+    /* left: 310px; */  
+}  
+
+
+/* Ot nqkav sait primer */
+/* .latest_work_line {
+    overflow: ;
+    text-align: center;
+  }
+  
+  .latest_work_line:before,
+  .latest_work_line:after {
+    background-color: #000;
+    content: "";
+    display: flex;
+    height: 1px;
+    position: relative;
+    z-index: 10;
+    
+    width: 30%;
+  }
+  
+  .latest_work_line:before {
+    right: 0.5em;
+    margin-left: -50%;
+    
+  }
+  
+  .latest_work_line:after {
+    left: 0.5em;
+    margin-right: -50%;
+  } */
