@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div id="header"></div>
+
+        <div id="weekdays">
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+            <div>Sunday</div>
+        </div>
+        <div id="calendar"></div>
+        <div class="footer">
+            <div class="button" id="previous-button">Previous</div>
+            <div class="button" id="next-button">Next</div>
+        </div>
+    </div>
+
+    <div id="newEventModal">
+        <div class="event-title-wrapper">
+            <h2>My Event</h2>
+        </div>
+        <input id="eventTitleInput" placeholder="Event Title">
+        <button id="saveButton">Save</button>
+        <button id="closeButton">Close</button>
+    </div>
+
+
+    <div id="backDrop">
+        <!-- <h2 style="color: red;">tooo</h2> -->
+    </div>
+
+    <script src="./assets/js/script.js" type="module"></script>
+</body>
+
+</html>
